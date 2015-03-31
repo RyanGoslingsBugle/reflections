@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Git adds all the necessary scaffolding to track commits - if you don't do that, nothing will be tracked, dummy
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It doesn't represent a location on disk, more a collection of files that are held together, like a repo. But, they aren't yet bound together strongly.
+It's a nice way of choosing what does and doesn't make it into the commit.
