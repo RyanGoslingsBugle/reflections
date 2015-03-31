@@ -15,3 +15,11 @@ What are some situations when branches would be helpful in keeping your history 
 
 For experiments, stuff that might break usability, alternate versions of an app for different audiences and so on.
 Keep the changes separate, so they don't interfere with the functional or production version that users should be on.
+
+How do the diagrams help you visualize the branch structure?
+
+Not hugely.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Roll the changes from the branch referenced second into the one referenced first. Once that's done, the head of each is the same commit, so they are now the same.
