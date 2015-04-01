@@ -22,3 +22,8 @@ You can run operations against the last-known state of the origin repo even whil
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 With Git, you'd have to clone a repo then try to merge every change, which would be a nightmare. With Hub, you can review pull requests for conflicts before merging the code.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Well, usually the master branch is supposed to be a working version, so if you're making risky (any) changes, you should use a dev branch.
+That's going to mean more merge work though, so if you're just updating docs, you're probably fine.
