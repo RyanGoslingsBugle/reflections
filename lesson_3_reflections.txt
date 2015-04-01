@@ -14,3 +14,7 @@ Clone: Exactly the same repo downloaded to another place. Maintains a link to or
 For keeping local copies of a repo to work on.
 Branch: Another series of commits included in the repo, which might contain different commits to the master.
 For making changes you don't want to include in the main branch right now.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can run operations against the last-known state of the origin repo even while offline. Also, it gives you a logical path to merge with subsequent commits.
