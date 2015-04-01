@@ -5,3 +5,12 @@ When you want to work from more than one location, collaborate with people who a
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Perhaps you're working on a new feature, and you want to prototype locally without git overwriting your commits with the static version from GitHub.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks: Your own version of a GitHub repo opened by someone else. Refers to but doesn't modify. 
+For working with other people's projects you want to do something different with that they're not interested in merging right now.
+Clone: Exactly the same repo downloaded to another place. Maintains a link to origin repo.
+For keeping local copies of a repo to work on.
+Branch: Another series of commits included in the repo, which might contain different commits to the master.
+For making changes you don't want to include in the main branch right now.
