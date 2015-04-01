@@ -23,3 +23,8 @@ Not hugely.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Roll the changes from the branch referenced second into the one referenced first. Once that's done, the head of each is the same commit, so they are now the same.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git auto-commit is quick and simple, preserving simple changes. 
+Manual merges ensure that only the changes you specify will enter the branch, but takes some thought and time to work through. 
