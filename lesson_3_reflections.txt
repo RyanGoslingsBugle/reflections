@@ -18,3 +18,7 @@ For making changes you don't want to include in the main branch right now.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can run operations against the last-known state of the origin repo even while offline. Also, it gives you a logical path to merge with subsequent commits.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+With Git, you'd have to clone a repo then try to merge every change, which would be a nightmare. With Hub, you can review pull requests for conflicts before merging the code.
